@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sevendaysdesign/pages/day1/splash_page.dart';
-import 'package:sevendaysdesign/pages/day1/welcome_page.dart';
-import 'package:sevendaysdesign/pages/home_page.dart';
+import 'package:sevendaysdesign/pages/day2/get_started_page.dart';
+import 'package:sevendaysdesign/pages/day2/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: HomePage(),
+      home: WelcomePage(),
     );
   }
 }
