@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sevendaysdesign/pages/day1/splash_page.dart';
 
 class HomePageBox extends StatelessWidget {
   final String text;
@@ -14,7 +15,11 @@ class HomePageBox extends StatelessWidget {
       width: 250,
       height: 50,
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () => Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => SplashPage(),
+          ),
+        ),
         style: ElevatedButton.styleFrom(
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10))),

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sevendaysdesign/pages/day1/splash_page.dart';
+import 'package:sevendaysdesign/pages/day1/welcome_page.dart';
 import 'package:sevendaysdesign/pages/home_page.dart';
 
 void main() {
