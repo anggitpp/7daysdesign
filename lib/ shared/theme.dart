@@ -33,3 +33,10 @@ TextStyle day3openSansText = GoogleFonts.openSans(
 TextStyle day3poppinsText = GoogleFonts.poppins(
   fontSize: 14,
 );
+
+Color day3lightBlackColor = '#17171A'.toColor();
+Color day3lightBackgroundColor = '#F8F8F8'.toColor();
+Color day3lightLightGrayColor = '#CFCFCF'.toColor();
+Color day3lightGrayColor = '#D3D3D3'.toColor();
+Color day3lightBlueColor = '#5468FF'.toColor();
+Color day3lightInputFillColor = '#F3F3F3'.toColor();

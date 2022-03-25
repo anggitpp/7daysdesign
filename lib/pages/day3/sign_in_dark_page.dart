@@ -25,18 +25,18 @@ class _SignInDarkPageState extends State<SignInDarkPage> {
               'assets/day3-dark-logo.png',
               width: 50,
             ),
-            SizedBox(
+            const SizedBox(
               height: 70,
             ),
             Text(
-              'Welcome back.\nLet\'s make money',
+              'Welcome back.\nLet\'s make money.',
               style: day3poppinsText.copyWith(
                 fontSize: 24,
                 fontWeight: FontWeight.w600,
                 color: Colors.white,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 70,
             ),
             SizedBox(
@@ -50,18 +50,18 @@ class _SignInDarkPageState extends State<SignInDarkPage> {
                   hintStyle: day3openSansText.copyWith(
                       color: day3darkHintColor, fontSize: 14),
                   enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.transparent),
+                      borderSide: const BorderSide(color: Colors.transparent),
                       borderRadius: BorderRadius.circular(17)),
                   focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white),
+                      borderSide: const BorderSide(color: Colors.white),
                       borderRadius: BorderRadius.circular(17)),
-                  contentPadding: EdgeInsets.all(15),
+                  contentPadding: const EdgeInsets.all(15),
                   fillColor: day3darkInputFillColor,
                   filled: true,
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             SizedBox(
@@ -76,12 +76,12 @@ class _SignInDarkPageState extends State<SignInDarkPage> {
                   hintStyle: day3openSansText.copyWith(
                       color: day3darkHintColor, fontSize: 14),
                   enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.transparent),
+                      borderSide: const BorderSide(color: Colors.transparent),
                       borderRadius: BorderRadius.circular(17)),
                   focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white),
+                      borderSide: const BorderSide(color: Colors.white),
                       borderRadius: BorderRadius.circular(17)),
-                  contentPadding: EdgeInsets.all(15),
+                  contentPadding: const EdgeInsets.all(15),
                   fillColor: day3darkInputFillColor,
                   filled: true,
                   suffixIcon: GestureDetector(
@@ -101,7 +101,7 @@ class _SignInDarkPageState extends State<SignInDarkPage> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             Align(
@@ -111,8 +111,8 @@ class _SignInDarkPageState extends State<SignInDarkPage> {
                 style: day3poppinsText.copyWith(color: day3darkGrayColor),
               ),
             ),
-            Spacer(),
-            Container(
+            const Spacer(),
+            SizedBox(
               height: 55,
               width: MediaQuery.of(context).size.width - 2 * 40,
               child: ElevatedButton(
@@ -133,7 +133,7 @@ class _SignInDarkPageState extends State<SignInDarkPage> {
                 onPressed: () {},
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             Row(
@@ -152,7 +152,7 @@ class _SignInDarkPageState extends State<SignInDarkPage> {
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 100,
             ),
           ],

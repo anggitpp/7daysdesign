@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sevendaysdesign/pages/day2/get_started_page.dart';
 import 'package:sevendaysdesign/pages/day2/welcome_page.dart';
 import 'package:sevendaysdesign/pages/day3/sign_in_dark_page.dart';
+import 'package:sevendaysdesign/pages/day3/sign_in_light_page.dart';
 import 'package:sevendaysdesign/pages/home_page.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: SignInDarkPage(),
+      home: HomePage(),
     );
   }
 }
