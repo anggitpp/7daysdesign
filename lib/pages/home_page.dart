@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sevendaysdesign/pages/day1/splash_page.dart' as day1;
+import 'package:sevendaysdesign/pages/day2/welcome_page.dart' as day2;
 import 'package:sevendaysdesign/widgets/home_page_box.dart';
 
 class HomePage extends StatelessWidget {
@@ -11,8 +13,22 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            HomePageBox(text: 'Day 1 : Splash Screen'),
-            HomePageBox(text: 'Day 2 : Get Started Screen'),
+            HomePageBox(
+              text: 'Day 1 : Splash Screen',
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => day1.SplashPage(),
+                ),
+              ),
+            ),
+            HomePageBox(
+              text: 'Day 2 : Get Started Screen',
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => day2.WelcomePage(),
+                ),
+              ),
+            ),
             HomePageBox(text: 'Day 3 : Sign In Screen'),
             HomePageBox(text: 'Day 4 : Empty State'),
             HomePageBox(text: 'Day 5 : Rating Screen'),

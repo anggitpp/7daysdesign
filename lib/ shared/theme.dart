@@ -19,3 +19,17 @@ TextStyle day2largeText =
 TextStyle day2mediumText = GoogleFonts.poppins(fontSize: 16);
 TextStyle day2buttonText =
     GoogleFonts.lato(fontSize: 18, fontWeight: FontWeight.w600);
+
+//DAY 3 THEME
+Color day3darkBackgroundColor = '#181A20'.toColor();
+Color day3darkOrangeColor = '#FCAC15'.toColor();
+Color day3darkGrayColor = '#6A6B70'.toColor();
+Color day3darkHintColor = '#6F7075'.toColor();
+Color day3darkInputFillColor = '#262A34'.toColor();
+Color day3darkBrownColor = '#6B4909'.toColor();
+TextStyle day3openSansText = GoogleFonts.openSans(
+  fontSize: 14,
+);
+TextStyle day3poppinsText = GoogleFonts.poppins(
+  fontSize: 14,
+);
